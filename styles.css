@@ -8,6 +8,11 @@
     src: url(./fonts/Roboto-Bold.ttf);
 }
 
+@font-face {
+    font-family: roboto-light-italic;
+    src: url(./fonts/Roboto-LightItalic.ttf);
+}
+
 * {
     font-family: roboto-regular;
 }
@@ -26,7 +31,7 @@
 }
 
 .header,
-.hero-main {
+.hero-main{
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -97,6 +102,27 @@
 
 .icon-text {
     color: #44464a;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.header-quote {
+    font-family: roboto-light-italic;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+}
+
+.quote-author {
+    margin-left: 1200px;
+    font-size: 24px;
 }
 
 button {
