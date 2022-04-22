@@ -58,8 +58,45 @@
 
 .secondary-text-hero {
     color: #E5E7EB;
-    font-size: 18px;
     max-width: 500px;
+}
+
+.hero-img {
+    height: 300px;
+    width: 655px;
+}
+
+.showcase {
+    padding-bottom: 100px;
+}
+.header-showcase {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-family: roboto-bold;
+    color: #1F2937;
+}
+
+.info-panel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 48px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.icon {
+    height: 180px;
+    width: auto;
+}
+
+.icon-text {
+    color: #44464a;
 }
 
 button {
@@ -73,11 +110,6 @@ button {
     font-family: roboto-bold;
 }
 
-img {
-    height: 300px;
-    width: 655px;
-}
-
 ul {
     display: flex;
     gap: 25px;
@@ -87,4 +119,8 @@ a {
     color: lightgray;
     font-size: 18px;
     text-decoration: none;
+}
+
+p {
+    font-size: 18px;
 }
