@@ -180,6 +180,18 @@
     border-color: #F9FAF8;
 }
 
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright {
+    color: #F9FAF8;
+}
+
 ul {
     display: flex;
     gap: 25px;
